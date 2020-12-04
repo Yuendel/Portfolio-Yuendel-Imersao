@@ -1,0 +1,207 @@
+h1,
+h2,
+h3,
+body,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 64px;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+h1 span {
+  font-weight: bold;
+  font-size: 80%;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.profissao {
+  font-size: 24px;
+}
+
+.ph {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+header {
+  background-color: white;
+  padding: 24px 45px;
+}
+
+.dados {
+  display: inline-block;
+}
+
+.foto {
+  border: 2px solid darkgreen;
+  border-radius: 50%;
+  margin-bottom: -100px;
+  margin-right: 20px;
+}
+
+main {
+  padding: 40px 50px;
+  display: flex;
+}
+
+.coluna-menor {
+  margin-top: 48px;
+  width: 280px;
+}
+
+.linha {
+  width: 80px;
+  border-top: 2px solid;
+  margin-top: 5px;
+}
+
+.experiencias .linha {
+  border-color: #4200ff;
+}
+
+.coluna-menor img {
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.coluna-maior {
+  margin-left: 20px;
+}
+
+.coluna-menor li {
+  margin-top: 24px;
+  display: flex;
+}
+
+.conteudo {
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.formacao {
+  margin-top: 30px;
+}
+
+.formacao .linha {
+  border-color: darkgreen;
+}
+
+.habilidadec {
+  background-color: white;
+  border-radius: 20px;
+  padding: 24px;
+  margin: 14px;
+  width: 280px;
+}
+
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coluna-maior h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+}
+
+.habilidadec h3 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.habilidadec p {
+  font-size: 16px;
+}
+
+.habilidadec li {
+  margin-top: 24px;
+}
+
+.habilidadec li:first-child {
+  margin-top: 0px;
+}
+
+.progresso {
+  width: 100%;
+  display: flex;
+}
+
+.barra {
+  width: 20%;
+  height: 4px;
+  background-color: #4200ff;
+  margin-top: 6px;
+}
+
+.incompleto {
+  opacity: 0.2;
+}
+
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projetos p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.projetoc {
+  background-color: white;
+  border-radius: 20px;
+  padding: 24px;
+  margin: 14px;
+  width: 280px;
+}
+
+.projetoc h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.projetoc a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #4200ff;
+  color: white;
+  padding: 8px 24px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 4px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 24px;
+}
+
+footer {
+  background-color: #14004d;
+  color: white;
+  padding: 57.6px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
