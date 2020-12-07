@@ -21,6 +21,11 @@ h3 {
 h1 span {
   font-weight: bold;
   font-size: 80%;
+  color: white;
+}
+
+.headados {
+  color: white;
 }
 
 p {
@@ -31,8 +36,12 @@ p {
   font-size: 24px;
 }
 
+.profissaoph {
+  color: white;
+}
+
 .ph {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgb(0, 0, 0, 0.4);
 }
 
 body {
@@ -40,6 +49,8 @@ body {
 }
 
 header {
+  background-image: url("https://bvl.org.br/wp-content/uploads/2016/09/foto-generica-recode-702x336@2x.jpeg");
+  background-repeat: no-repeat;
   background-color: white;
   padding: 24px 45px;
 }
@@ -199,7 +210,7 @@ ol {
 }
 
 footer {
-  background-color: #14004d;
+  background-color: black;
   color: white;
   padding: 57.6px;
   text-align: center;
